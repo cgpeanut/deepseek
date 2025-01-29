@@ -23,7 +23,7 @@ while true; do
     echo -e "<h2>======  Start of $user_input  ======</h2>" >> "Response.md"
 
     # Run the command and append the output directly to the file
-    ollama run gdisney/deepseek-coder-uncensored "$user_input" >> "$output_file"
+    ollama run nezahatkorkmaz/deepseek-v3:latest "$user_input" >> "$output_file"
     
     echo -e "<h2>======  End of $user_input  ======</h2>" >> "Response.md"
 

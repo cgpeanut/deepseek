@@ -8,7 +8,7 @@ import platform
 
 parser = argparse.ArgumentParser()
 #parser.add_argument("model", nargs="?", default="llama3.2")
-parser.add_argument("model", nargs="?", default="gdisney/deepseek-coder-uncensored")
+parser.add_argument("model", nargs="?", default="nezahatkorkmaz/deepseek-v3:latest")
 
 args = parser.parse_args()
 
