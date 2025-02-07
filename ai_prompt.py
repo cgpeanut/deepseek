@@ -9,7 +9,8 @@ import platform
 parser = argparse.ArgumentParser()
 #parser.add_argument("model", nargs="?", default="llama3.2")
 #parser.add_argument("model", nargs="?", default="nezahatkorkmaz/deepseek-v3:latest")
-parser.add_argument("model", nargs="?", default="deepseek-llm:67b")
+#parser.add_argument("model", nargs="?", default="deepseek-llm:67b")
+parser.add_argument("model", nargs="?", default="evil_dolph:latest")
 args = parser.parse_args()
 
 messages = []
