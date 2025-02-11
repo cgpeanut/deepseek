@@ -4,7 +4,9 @@ import pandas as pd
 from sklearn.preprocessing import MinMaxScaler
 
 # Load data from CSV file
-dataframe = pd.read_csv('yourfilepath.csv', usecols=[0], engine='python')
+#dataframe = pd.read_csv('yourfilepath.csv', usecols=[0], engine='python')
+
+dataframe = pd.read_csv('/home/roxasrr/code/deepseek/Lottery_Powerball_Winning_Numbers__Beginning_2010.csv', usecols=[0], engine='python')
 dataset = dataframe.values
 dataset = dataset.astype('float32')
 
